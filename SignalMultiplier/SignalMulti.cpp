@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <string>
 
 void multiply_matrix(float* data, float scalar, int thread_id) {
     *(data + thread_id) = *(data + thread_id) * scalar;
@@ -15,7 +17,8 @@ int main(){
         std::cout << my_signal[i] << std::endl;
         multiply_matrix(my_signal, scalar, i);
         std::cout << my_signal[i] << std::endl;
-        
+
+        return 0;
     }
 }
 
