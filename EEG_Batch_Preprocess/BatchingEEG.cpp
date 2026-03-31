@@ -14,7 +14,7 @@ struct SignalChannel {
 
         float sum = 0.0f;
         for (int i = 0; i < s; i++) sum += d[i];
-        float bias = sum / s;
+        bias = sum / s;
     }
 };
 
