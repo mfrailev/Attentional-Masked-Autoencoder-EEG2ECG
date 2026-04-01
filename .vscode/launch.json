@@ -4,7 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [{
-            "name": "C++: Optimized EEG Build",
+            "name": "C++: Masked Autoencoder",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -13,6 +13,6 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "console": "externalTerminal",
-            "preLaunchTask": "C/C++: cl.exe BUILD OPTIMIZED"}
+            "preLaunchTask": "C/C++: Masked Autoencoder"}
     ]
 }

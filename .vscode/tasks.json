@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: cl.exe BUILD OPTIMIZED",
+            "label": "C/C++: Masked Autoencoder",
             "command": "cl.exe",
             "args": [
                 "/Zi",
